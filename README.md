@@ -27,3 +27,17 @@ Use EDA techniques to explore the Titanic dataset using statistics and visualiza
 ### Install dependencies:
 ```bash
 pip install pandas seaborn matplotlib
+✅ Dataset loaded!
+
+📊 Summary:
+       PassengerId    Survived  ...       Parch          Fare
+count   889.000000  889.000000  ...  889.000000  8.890000e+02
+mean    446.000000    0.382452  ...    0.382452  1.478632e-16
+std     256.998173    0.486260  ...    0.806761  1.000563e+00
+min       1.000000    0.000000  ...    0.000000 -6.462044e-01
+25%     224.000000    0.000000  ...    0.000000 -4.872378e-01
+50%     446.000000    0.000000  ...    0.000000 -3.551972e-01
+75%     668.000000    1.000000  ...    0.000000 -2.207954e-02
+max     891.000000    1.000000  ...    6.000000  9.668551e+00
+
+[8 rows x 8 columns]
